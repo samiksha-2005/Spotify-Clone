@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="navbar">
+      <ul>
+         <li class="logo"><img src="https://cdn.pixabay.com/photo/2016/10/22/00/15/spotify-1759471_1280.jpg" alt="1" class="spotify-img">Spotify</li>
+         <li class="nav">Music</li>
+         <li class="nav">Podcasts</li>
+         <li class="heart-container">
+             <i id="heartIcon" class="fa-regular fa-heart heart-icon"></i>
+         </li>
+      </ul>
+    </div>
+    <div class="songs">
+       <button class="bollywood">Bollywood Songs</button>
+       <button class="hollywood">Hollywood Songs</button>
+    </div>
+    <div class="songList1">
+       <div class="songItems">
+          <img src="https://c.saavncdn.com/237/Andhadhun-Hindi-2018-20181003-500x500.jpg" alt="1" class="songImg">
+          <span class="songName">Naina Da Kya Kasoor</span>
+          <span class="songListPlay"><span class="time">2:54</span><i id="0" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://c.saavncdn.com/978/Kapoor-Sons-Since-1921-Hindi-2016-20250508221756-500x500.jpg" alt="1" class="songImg">
+          <span class="songName">Kar Gayi Chull</span>
+          <span class="songListPlay"><span class="time">3:07</span><i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://i.scdn.co/image/ab67616d0000b273f6371011af4c82fb31d54820" alt="1" class="songImg">
+          <span class="songName">Sooraj Dooba Hain</span>
+          <span class="songListPlay"><span class="time">4:24</span><i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ae1dcb4b96e55e77d7f2a137" alt="1" class="songImg">
+          <span class="songName">Channa Ve</span>
+          <span class="songListPlay"><span class="time">3:31</span><i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://i.scdn.co/image/ab67616d00001e02d6cfe62a22efbcd2bc6a743b" alt="1" class="songImg">
+          <span class="songName">What Jhumka?</span>
+          <span class="songListPlay"><span class="time">3:33</span><i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://i.scdn.co/image/ab67616d0000b27347478a4ab783457fe6766576" alt="1" class="songImg">
+          <span class="songName">Lagdi Lahore Di</span>
+          <span class="songListPlay"><span class="time">3:35</span><i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://i.scdn.co/image/ab67616d0000b27352fe6875028c892308ffc2f7" alt="1" class="songImg">
+          <span class="songName">Tum Se Hi</span>
+          <span class="songListPlay"><span class="time">5:23</span><i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://c.saavncdn.com/260/Rangisari-From-Jugjugg-Jeeyo-Hindi-2022-20220606031008-500x500.jpg" alt="1" class="songImg">
+          <span class="songName">Rangisari</span>
+          <span class="songListPlay"><span class="time">3:43</span><i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGD44eJju8Bx1Dw1J4ihBmQsFgyGj1vkpV9w&s" alt="1" class="songImg">
+          <span class="songName">Nachde Ne Saare</span>
+          <span class="songListPlay"><span class="time">3:14</span><i id="8" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://m.media-amazon.com/images/M/MV5BOTljZDRlMzctMGRmNy00ODA3LWI4ZWEtZTc4Y2E5MDFkYmNhXkEyXkFqcGc@._V1_.jpg" alt="1" class="songImg">
+          <span class="songName">Ik Vaari Aa</span>
+          <span class="songListPlay"><span class="time">4:34</span><i id="9" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div> 
+    </div> 
+    <div class="songList2">
+       <div class="songItems">
+          <img src="https://cdn-images.dzcdn.net/images/cover/6a52e1bbddc750c996a66b0ccfa4370c/1900x1900-000000-80-0-0.jpg" alt="1" class="songImg">
+          <span class="songName">Let Me Love You</span>
+          <span class="songListPlay"><span class="time">3:25</span><i id="10" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://i.scdn.co/image/ab67616d00001e02de84adf0e48248ea2d769c3e" alt="1" class="songImg">
+          <span class="songName">Espresso</span>
+          <span class="songListPlay"><span class="time">2:55</span><i id="11" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://i.scdn.co/image/ab67616d00001e02be841ba4bc24340152e3a79a" alt="1" class="songImg">
+          <span class="songName">Woman</span>
+          <span class="songListPlay"><span class="time">2:52</span><i id="12" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://c.saavncdn.com/358/Starboy-English-2016-20240207050743-500x500.jpg" alt="1" class="songImg">
+          <span class="songName">Starboy</span>
+          <span class="songListPlay"><span class="time">3:50</span><i id="13" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://lastfm.freetls.fastly.net/i/u/ar0/80daaf62c7fbbf6ddaa143030b684e12.jpg" alt="1" class="songImg">
+          <span class="songName">Shape Of You</span>
+          <span class="songListPlay"><span class="time">3:53</span><i id="14" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://m.media-amazon.com/images/I/61bc1iAwLFL._UF350,350_QL80_.jpg" alt="1" class="songImg">
+          <span class="songName">Cruel Summer</span>
+          <span class="songListPlay"><span class="time">2:58</span><i id="15" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png" alt="1" class="songImg">
+          <span class="songName">Stay</span>
+          <span class="songListPlay"><span class="time">2:21</span><i id="16" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://albumart.publicradio.org/mb/bf/bf856ab7-d334-4d7e-bc99-7a62fa67087b_4646.jpg" alt="1" class="songImg">
+          <span class="songName">Say Yes To Heaven</span>
+          <span class="songListPlay"><span class="time">3:29</span><i id="17" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://albumart.publicradio.org/mb/1d/1dc4c347-a1db-32aa-b14f-bc9cc507b843_40d3.jpg" alt="1" class="songImg">
+          <span class="songName">Yellow</span>
+          <span class="songListPlay"><span class="time">4:26</span><i id="18" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+       <div class="songItems">
+          <img src="https://i.scdn.co/image/ab67616d0000b2737f73e6587c8ced7cad6e1e02" alt="1" class="songImg">
+          <span class="songName">Favorite</span>
+          <span class="songListPlay"><span class="time">2:14</span><i id="19" class="fa-regular songItemPlay fa-circle-play"></i></span>
+       </div>  
+    </div>
+    <div class="singer">
+       <p>Popular Artists</p>
+       <img src="https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7" alt="1" class="artist">
+       <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca" alt="1" class="artist">
+       <img src="https://i.scdn.co/image/ab6761610000e5eb7b386b1320742bd6686854e7" alt="1" class="artist">
+       <img src="https://i.scdn.co/image/ab6761610000e5eb8ae7f2aaa9817a704a87ea36" alt="1" class="artist">
+       <img src="https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455" alt="1" class="artist">
+       <img src="https://i.scdn.co/image/ab6761610000e5ebe672b5f553298dcdccb0e676" alt="1" class="artist">
+    </div>
+    
+    <div class="singerName">
+       <p>Arijit Singh</p>
+       <p>Pritam</p>
+       <p>Badshah</p>
+       <p>Justin Bieber</p>
+       <p>Sabrina Carpenter</p>
+       <p>Taylor Swift</p>
+    </div>
+    
+    <div class="container">
+       <div class="progress-container">
+           <span class="current-time">0:00</span>
+           <input type="range" name="range" id="progressBar" value="0" min="0" max="100">
+           <span class="total-duration">0:00</span>
+       </div>
+       <div class="icons1">
+          <i class="fa-solid fa-backward-step" id="previous"></i>
+          <i class="fa-solid fa-circle-play" id="playBtn"></i>
+          <i class="fa-solid fa-forward-step" id="next"></i>
+       </div>
+    </div>
+    <div class="bottom">
+        <div class="song-display">
+           <img id="currentSongImage" src="https://c.saavncdn.com/237/Andhadhun-Hindi-2018-20181003-500x500.jpg" alt="Current Song" class="current-song-img">
+           <div class="songInfo">
+               <span id="masterSongName">Naina Da Kya Kasoor</span>
+               <span id="masterArtistName">Ayushmann Khurrana</span>
+           </div>
+       </div>
+        <div class="bottom-nav">
+            <ul>
+               <li>
+                   <i class="fa-solid fa-house"></i>
+                   Home
+               </li>
+               <li>
+                   <i class="fa-solid fa-magnifying-glass"></i>
+                   Search
+               </li>
+               <li>
+                   <i class="fa-regular fa-bookmark"></i>
+                   Your Library
+               </li>
+               <li>
+                   <i class="fa-brands fa-spotify"></i>
+                   Premium
+               </li>
+            </ul>
+        </div>
+      </div>
+
+    <!-- Like Notification Popup -->
+    <div id="likeNotification" class="like-notification hidden">
+        <span id="likeMessage">Added to liked songs</span>
+    </div>
+
+    <!-- Search Overlay -->
+    <div id="searchOverlay" class="overlay hidden">
+        <div class="overlay-header">
+            <button class="close-btn" id="closeSearch">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <h2>Search Music</h2>
+        </div>
+        <div class="overlay-content">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" class="search-input" placeholder="What do you want to listen to?">
+                </div>
+                
+                <div class="popular-searches">
+                    <h3>Popular Searches</h3>
+                    <div class="popular-grid">
+                        <div class="popular-item" data-search="arijit singh">
+                            <div class="popular-bg bg-1"></div>
+                            <span>Arijit Singh</span>
+                        </div>
+                        <div class="popular-item" data-search="taylor swift">
+                            <div class="popular-bg bg-2"></div>
+                            <span>Taylor Swift</span>
+                        </div>
+                        <div class="popular-item" data-search="bollywood">
+                            <div class="popular-bg bg-3"></div>
+                            <span>Bollywood Hits</span>
+                        </div>
+                        <div class="popular-item" data-search="english">
+                            <div class="popular-bg bg-4"></div>
+                            <span>English Songs</span>
+                        </div>
+                        <div class="popular-item" data-search="love songs">
+                            <div class="popular-bg bg-5"></div>
+                            <span>Love Songs</span>
+                        </div>
+                        <div class="popular-item" data-search="party">
+                            <div class="popular-bg bg-6"></div>
+                            <span>Party Mix</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="searchResults" class="search-results hidden">
+                    <h3>Search Results</h3>
+                    <div id="resultsContainer" class="results-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Library Overlay -->
+    <div id="libraryOverlay" class="overlay hidden">
+        <div class="overlay-header">
+            <button class="close-btn" id="closeLibrary">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <h2>Your Library</h2>
+        </div>
+        <div class="overlay-content">
+            <div class="library-content">
+                <div class="library-tabs">
+                    <button class="library-tab active" data-tab="playlists">Playlists</button>
+                    <button class="library-tab" data-tab="artists">Artists</button>
+                    <button class="library-tab" data-tab="albums">Albums</button>
+                    <button class="library-tab" data-tab="downloaded">Downloaded</button>
+                </div>
+                
+                <div class="library-tab-content">
+                    <div id="playlistsTab" class="tab-panel active">
+                        <div class="empty-library">
+                            <div class="empty-icon">
+                                <i class="fa-solid fa-music"></i>
+                            </div>
+                            <h3>Create your first playlist</h3>
+                            <p>It's easy, we'll help you</p>
+                            <button class="create-playlist-btn">Create playlist</button>
+                        </div>
+                    </div>
+                    
+                    <div id="artistsTab" class="tab-panel">
+                        <div class="artists-grid" id="artistsGrid"></div>
+                    </div>
+                    
+                    <div id="albumsTab" class="tab-panel">
+                        <div class="empty-library">
+                            <div class="empty-icon">
+                                <i class="fa-solid fa-compact-disc"></i>
+                            </div>
+                            <h3>Find albums you like</h3>
+                            <p>Save albums to easily find them later</p>
+                            <button class="browse-btn">Browse albums</button>
+                        </div>
+                    </div>
+                    
+                    <div id="downloadedTab" class="tab-panel">
+                        <div class="empty-library">
+                            <div class="empty-icon">
+                                <i class="fa-solid fa-download"></i>
+                            </div>
+                            <h3>No downloaded music</h3>
+                            <p>Download songs to listen offline</p>
+                            <button class="browse-btn">Find music</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Overlay -->
+    <div id="premiumOverlay" class="overlay hidden">
+        <div class="overlay-header">
+            <button class="close-btn" id="closePremium">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <h2>Spotify Premium</h2>
+        </div>
+        <div class="overlay-content">
+            <div class="premium-content">
+                <div class="premium-hero">
+                    <div class="premium-logo">
+                        <i class="fa-brands fa-spotify"></i>
+                    </div>
+                    <h2>Get 3 months of Premium for free</h2>
+                    <p>Enjoy ad-free music, offline listening, and better audio quality.</p>
+                    <button class="premium-btn">GET 3 MONTHS FREE</button>
+                    <p class="terms">Individual plan only. ₹119/month after. Terms and conditions apply. Open only to users who haven't tried Premium. Offer ends Sept 30, 2025.</p>
+                </div>
+                
+                <div class="premium-benefits">
+                    <h3>Why go Premium?</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit">
+                            <div class="benefit-icon">
+                                <i class="fa-solid fa-ban"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Ad-free music listening</h4>
+                                <p>Enjoy uninterrupted music without ads.</p>
+                            </div>
+                        </div>
+                        <div class="benefit">
+                            <div class="benefit-icon">
+                                <i class="fa-solid fa-download"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Offline playback</h4>
+                                <p>Save your data by listening offline.</p>
+                            </div>
+                        </div>
+                        <div class="benefit">
+                            <div class="benefit-icon">
+                                <i class="fa-solid fa-music"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Play everywhere</h4>
+                                <p>Listen on your speakers, TV, and other devices.</p>
+                            </div>
+                        </div>
+                        <div class="benefit">
+                            <div class="benefit-icon">
+                                <i class="fa-solid fa-sliders"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Better sound quality</h4>
+                                <p>Feel the music with premium audio quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
